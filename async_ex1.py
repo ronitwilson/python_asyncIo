@@ -3,8 +3,6 @@ import asyncio
 from datetime import datetime
 import click
 
-
-
 async def sleep_and_print(sleep_time):
     print("starting to sleep {} ".format(sleep_time))
     await asyncio.sleep(sleep_time)
